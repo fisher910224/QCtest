@@ -1,0 +1,8 @@
+function subvelopic(daym,dp_m)
+day_i=4;
+plot(daym,dp_m,'-','linewidth',2,'color','k');grid on;hold on
+ylim([min(dp_m) max(dp_m)]);hold on
+axis([floor(min(daym)) ceil(max(daym)) min(dp_m) max(dp_m)])
+set(gca,'xtick',[floor(min(daym)):day_i:ceil(max(daym))])
+set(gca,'xticklabel',{datestr(floor(min(daym)),6),datestr(floor(min(daym))+4,6),datestr(floor(min(daym))+8,6),datestr(floor(min(daym))+12,6),datestr(floor(min(daym))+16,6),datestr(floor(min(daym))+20,6),datestr(floor(min(daym))+24,6),datestr(floor(min(daym))+28,6),datestr(floor(min(daym))+32,6),datestr(floor(min(daym))+36,6),datestr(floor(min(daym))+40,6),datestr(floor(min(daym))+44,6),datestr(floor(min(daym))+48,6),datestr(floor(min(daym))+52,6),datestr(floor(min(daym))+56,6),datestr(floor(min(daym))+60,6),datestr(floor(min(daym))+64,6),datestr(floor(min(daym))+68,6),datestr(floor(min(daym))+72,6),datestr(floor(min(daym))+74,6),datestr(floor(min(daym))+78,6),datestr(floor(min(daym))+82,6),datestr(floor(min(daym))+86,6),datestr(floor(min(daym))+90,6),datestr(floor(min(daym))+94,6),datestr(floor(min(daym))+100,6)}); 
+%set(gca,'xticklabel',{datestr(floor(min(daym)),6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6),datestr(floor(min(daym))+day_i,6)}); 
